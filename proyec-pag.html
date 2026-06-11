@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temas de HTML</title>
+
+    <style>
+        body{
+            background-color:#7bbf6a;
+            font-family: Arial, sans-serif;
+            text-align:center;
+            margin:0;
+        }
+
+        header{
+            background-color:#4e8b3d;
+            color:white;
+            padding:20px;
+        }
+
+        .tema{
+            background-color:white;
+            width:80%;
+            margin:20px auto;
+            padding:15px;
+            border:2px solid #4e8b3d;
+            border-radius:10px;
+        }
+
+        h2{
+            color:#2f5d23;
+        }
+
+        table{
+            width:80%;
+            margin:auto;
+            border-collapse:collapse;
+        }
+
+        th, td{
+            border:1px solid black;
+            padding:8px;
+        }
+
+        th{
+            background-color:#4e8b3d;
+            color:white;
+        }
+
+        ul, ol{
+            text-align:left;
+            width:70%;
+            margin:auto;
+        }
+
+        marquee{
+            background-color:#d9ead3;
+            padding:10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Proyecto de HTML</h1>
+        <marquee>Bienvenido a mi página web sobre algunos temas de HTML.</marquee>
+    </header>
+
+    <div class="tema">
+        <h2>Listas en HTML</h2>
+
+        <p>Lista desordenada:</p>
+        <ul>
+            <li>Espada</li>
+            <li>Pico</li>
+            <li>Comida</li>
+        </ul>
+
+        <p>Lista ordenada:</p>
+        <ol>
+            <li>Conseguir materiales</li>
+            <li>Crear herramientas</li>
+            <li>Construir una casa</li>
+        </ol>
+    </div>
+
+    <div class="tema">
+        <h2>Tabla con Colspan y Rowspan</h2>
+        <p>Características y usos del Porsche 919 Hybrid EVO.</p>
+
+        <table>
+            <tr>
+                <th colspan="3">Porsche 919 Hybrid EVO</th>
+            </tr>
+
+            <tr>
+                <th>Característica</th>
+                <th>Detalle</th>
+                <th>Uso o Funcionalidad</th>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Motor</td>
+                <td>Motor 4 cilindros en V de 2.0 litros turboalimentado</td>
+                <td>Genera gran potencia para competir a máxima velocidad</td>
+            </tr>
+
+            <tr>
+                <td>Potencia aproximada de 1160 caballos de fuerza</td>
+                <td>Aceleración extrema y alto rendimiento en pista</td>
+            </tr>
+
+            <tr>
+                <td>Aerodinámica</td>
+                <td colspan="2">Sistema con 50% más carga aerodinámica que la versión de carreras para mejorar estabilidad y agarre</td>
+            </tr>
+
+            <tr>
+                <td>Récord de vuelta</td>
+                <td>5 minutos y 19.55 segundos en Nürburgring</td>
+                <td>Demuestra su desempeño excepcional en circuitos</td>
+            </tr>
+
+            <tr>
+                <td>Piloto</td>
+                <td>Timo Bernhard</td>
+                <td>Cinco veces ganador de las 24 Horas de Nürburgring</td>
+            </tr>
+        </table>
+
+        <p>Colspan une columnas y rowspan une filas.</p>
+    </div>
+
+    <div class="tema">
+        <h2>¿Qué es HTML?</h2>
+
+        <p>
+            HTML significa HyperText Markup Language.
+            Es el lenguaje que se utiliza para crear páginas web.
+        </p>
+
+        <ol>
+            <li>DOCTYPE indica que el documento es HTML5.</li>
+            <li>HTML contiene toda la página.</li>
+            <li>HEAD guarda información como el título y estilos.</li>
+            <li>BODY contiene todo lo visible para el usuario.</li>
+            <li>Las etiquetas permiten agregar títulos, textos, tablas y formularios.</li>
+        </ol>
+    </div>
+
+</body>
+</html>
